@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		F269D3D31212816700732719 /* EasyFn.icns in Resources */ = {isa = PBXBuildFile; fileRef = F269D3D21212816700732719 /* EasyFn.icns */; };
+		F2722E1B121E1A74003371EF /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2722E1A121E1A74003371EF /* IOKit.framework */; };
+		F27B18B312121FE00098F791 /* EasyFn.m in Sources */ = {isa = PBXBuildFile; fileRef = F27B18B212121FE00098F791 /* EasyFn.m */; };
+		F27B18BF121222960098F791 /* EasyFnStatusItemAltOff.png in Resources */ = {isa = PBXBuildFile; fileRef = F27B18B7121222960098F791 /* EasyFnStatusItemAltOff.png */; };
+		F27B18C1121222960098F791 /* EasyFnStatusItemAltOn.png in Resources */ = {isa = PBXBuildFile; fileRef = F27B18B9121222960098F791 /* EasyFnStatusItemAltOn.png */; };
+		F27B18C3121222960098F791 /* EasyFnStatusItemOff.png in Resources */ = {isa = PBXBuildFile; fileRef = F27B18BB121222960098F791 /* EasyFnStatusItemOff.png */; };
+		F27B18C5121222960098F791 /* EasyFnStatusItemOn.png in Resources */ = {isa = PBXBuildFile; fileRef = F27B18BD121222960098F791 /* EasyFnStatusItemOn.png */; };
+		F27B18ED121237160098F791 /* relaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = F27B18E51212369B0098F791 /* relaunch.m */; };
+		F27B18FD121239540098F791 /* relaunch in CopyFiles */ = {isa = PBXBuildFile; fileRef = F27B18E9121236EF0098F791 /* relaunch */; };
+		F27B19181212409C0098F791 /* EasyFnAppIconOff.png in Resources */ = {isa = PBXBuildFile; fileRef = F27B19161212409C0098F791 /* EasyFnAppIconOff.png */; };
+		F27B19191212409C0098F791 /* EasyFnAppIconOn.png in Resources */ = {isa = PBXBuildFile; fileRef = F27B19171212409C0098F791 /* EasyFnAppIconOn.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F27B18EE121237350098F791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F27B18E8121236EF0098F791;
+			remoteInfo = relaunch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F27B18FC121238A00098F791 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				F27B18FD121239540098F791 /* relaunch in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* EasyFn_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyFn_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* EasyFn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyFn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F269D3D21212816700732719 /* EasyFn.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = EasyFn.icns; sourceTree = "<group>"; };
+		F2722E1A121E1A74003371EF /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		F27B18B112121FE00098F791 /* EasyFn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyFn.h; sourceTree = "<group>"; };
+		F27B18B212121FE00098F791 /* EasyFn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyFn.m; sourceTree = "<group>"; };
+		F27B18B6121222960098F791 /* EasyFnStatusItemAltOff.acorn */ = {isa = PBXFileReference; lastKnownFileType = file; path = EasyFnStatusItemAltOff.acorn; sourceTree = "<group>"; };
+		F27B18B7121222960098F791 /* EasyFnStatusItemAltOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EasyFnStatusItemAltOff.png; sourceTree = "<group>"; };
+		F27B18B8121222960098F791 /* EasyFnStatusItemAltOn.acorn */ = {isa = PBXFileReference; lastKnownFileType = file; path = EasyFnStatusItemAltOn.acorn; sourceTree = "<group>"; };
+		F27B18B9121222960098F791 /* EasyFnStatusItemAltOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EasyFnStatusItemAltOn.png; sourceTree = "<group>"; };
+		F27B18BA121222960098F791 /* EasyFnStatusItemOff.acorn */ = {isa = PBXFileReference; lastKnownFileType = file; path = EasyFnStatusItemOff.acorn; sourceTree = "<group>"; };
+		F27B18BB121222960098F791 /* EasyFnStatusItemOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EasyFnStatusItemOff.png; sourceTree = "<group>"; };
+		F27B18BC121222960098F791 /* EasyFnStatusItemOn.acorn */ = {isa = PBXFileReference; lastKnownFileType = file; path = EasyFnStatusItemOn.acorn; sourceTree = "<group>"; };
+		F27B18BD121222960098F791 /* EasyFnStatusItemOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EasyFnStatusItemOn.png; sourceTree = "<group>"; };
+		F27B18E51212369B0098F791 /* relaunch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = relaunch.m; sourceTree = "<group>"; };
+		F27B18E9121236EF0098F791 /* relaunch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = relaunch; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27B19161212409C0098F791 /* EasyFnAppIconOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EasyFnAppIconOff.png; sourceTree = "<group>"; };
+		F27B19171212409C0098F791 /* EasyFnAppIconOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EasyFnAppIconOn.png; sourceTree = "<group>"; };
+		F27B191A121240AA0098F791 /* EasyFnAppIconOff.acorn */ = {isa = PBXFileReference; lastKnownFileType = file; path = EasyFnAppIconOff.acorn; sourceTree = "<group>"; };
+		F27B191B121240AA0098F791 /* EasyFnAppIconOn.acorn */ = {isa = PBXFileReference; lastKnownFileType = file; path = EasyFnAppIconOn.acorn; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				F2722E1B121E1A74003371EF /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27B18E7121236EF0098F791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F27B18B112121FE00098F791 /* EasyFn.h */,
+				F27B18B212121FE00098F791 /* EasyFn.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* EasyFn.app */,
+				F27B18E9121236EF0098F791 /* relaunch */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* EasyFn */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				F2722E1A121E1A74003371EF /* IOKit.framework */,
+			);
+			name = EasyFn;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* EasyFn_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				F27B18E51212369B0098F791 /* relaunch.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F269D3D21212816700732719 /* EasyFn.icns */,
+				F27B19161212409C0098F791 /* EasyFnAppIconOff.png */,
+				F27B19171212409C0098F791 /* EasyFnAppIconOn.png */,
+				F27B18BB121222960098F791 /* EasyFnStatusItemOff.png */,
+				F27B18BD121222960098F791 /* EasyFnStatusItemOn.png */,
+				F27B18B7121222960098F791 /* EasyFnStatusItemAltOff.png */,
+				F27B18B9121222960098F791 /* EasyFnStatusItemAltOn.png */,
+				F27B191A121240AA0098F791 /* EasyFnAppIconOff.acorn */,
+				F27B191B121240AA0098F791 /* EasyFnAppIconOn.acorn */,
+				F27B18BA121222960098F791 /* EasyFnStatusItemOff.acorn */,
+				F27B18BC121222960098F791 /* EasyFnStatusItemOn.acorn */,
+				F27B18B6121222960098F791 /* EasyFnStatusItemAltOff.acorn */,
+				F27B18B8121222960098F791 /* EasyFnStatusItemAltOn.acorn */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* EasyFn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "EasyFn" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				F27B18FC121238A00098F791 /* CopyFiles */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F27B18EF121237350098F791 /* PBXTargetDependency */,
+			);
+			name = EasyFn;
+			productInstallPath = "$(HOME)/Applications";
+			productName = EasyFn;
+			productReference = 8D1107320486CEB800E47090 /* EasyFn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F27B18E8121236EF0098F791 /* relaunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27B18F0121237530098F791 /* Build configuration list for PBXNativeTarget "relaunch" */;
+			buildPhases = (
+				F27B18E6121236EF0098F791 /* Sources */,
+				F27B18E7121236EF0098F791 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = relaunch;
+			productName = relaunch;
+			productReference = F27B18E9121236EF0098F791 /* relaunch */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "EasyFn" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* EasyFn */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* EasyFn */,
+				F27B18E8121236EF0098F791 /* relaunch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				F27B18BF121222960098F791 /* EasyFnStatusItemAltOff.png in Resources */,
+				F27B18C1121222960098F791 /* EasyFnStatusItemAltOn.png in Resources */,
+				F27B18C3121222960098F791 /* EasyFnStatusItemOff.png in Resources */,
+				F27B18C5121222960098F791 /* EasyFnStatusItemOn.png in Resources */,
+				F27B19181212409C0098F791 /* EasyFnAppIconOff.png in Resources */,
+				F27B19191212409C0098F791 /* EasyFnAppIconOn.png in Resources */,
+				F269D3D31212816700732719 /* EasyFn.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				F27B18B312121FE00098F791 /* EasyFn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27B18E6121236EF0098F791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27B18ED121237160098F791 /* relaunch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F27B18EF121237350098F791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F27B18E8121236EF0098F791 /* relaunch */;
+			targetProxy = F27B18EE121237350098F791 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EasyFn_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = EasyFn;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EasyFn_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = EasyFn;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		F27B18EB121236EF0098F791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = relaunch;
+			};
+			name = Debug;
+		};
+		F27B18EC121236EF0098F791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = relaunch;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "EasyFn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "EasyFn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27B18F0121237530098F791 /* Build configuration list for PBXNativeTarget "relaunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27B18EB121236EF0098F791 /* Debug */,
+				F27B18EC121236EF0098F791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
